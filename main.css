@@ -18,11 +18,11 @@ nav {
 	z-index: 2000;
 	top: 0;
 	right: 0;
-	height: 4px;
+	height: 8px;
 	width: 24px;
 	text-align: right;
 	margin: 2rem 2rem;
-	background: #ec008c;
+	background: #fff;
 	transition: all 0.3s;
 }
 
@@ -35,10 +35,23 @@ nav {
 	text-align: left;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-image: url(img/logo.jpg);
+	background-image: url(img/logo.png);
 	background-size: 130px 130px;
 
 }
+
+/*#toggle{
+	width: 104px;
+	height: 74px;
+	padding: 45px 40px;
+	z-index: 1000;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+}*/
 
 #toggle:hover .menu:before {
 	top: -9px;
@@ -107,7 +120,7 @@ nav ul li {
 	visibility: hidden;
 }
 
-nav ul li a {
+nav ul li a{
 	color: white;
 	width: 100%;
 	display: block;
@@ -130,7 +143,7 @@ nav.open ul {
 
 nav.open ul li {
 	color:#fff;
-	font-size: 60px: 
+	font-size: 60px; 
 	visibility: visible !important;	
 }
 
