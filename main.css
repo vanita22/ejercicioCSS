@@ -189,3 +189,9 @@ nav.solid #logo .logo {
 .menu:before {
 	top: 8px;
 }
+
+/* agregado mío vanessa pérez*/
+.boxContenedor {/*esto crea un srcoll automático a medida que crece el diseño de la página web, si no crece no aparece*/
+	margin-top: 160px;
+	height: auto;
+}
